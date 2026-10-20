@@ -1,0 +1,14 @@
+{
+  "itemGroup.fishyourdiamonds": "Example Mod Tab",
+  "block.fishyourdiamonds.example_block": "Example Block",
+  "item.fishyourdiamonds.example_item": "Example Item",
+  "item.fishyourdiamonds.weird_rod": "Weird Rod",
+
+  "fishyourdiamonds.configuration.title": "Fish Your Diamonds Configs",
+  "fishyourdiamonds.configuration.section.fishyourdiamonds.common.toml": "Fish Your Diamonds Configs",
+  "fishyourdiamonds.configuration.section.fishyourdiamonds.common.toml.title": "Fish Your Diamonds Configs",
+  "fishyourdiamonds.configuration.items": "Item List",
+  "fishyourdiamonds.configuration.logDirtBlock": "Log Dirt Block",
+  "fishyourdiamonds.configuration.magicNumberIntroduction": "Magic Number Text",
+  "fishyourdiamonds.configuration.magicNumber": "Magic Number"
+}
