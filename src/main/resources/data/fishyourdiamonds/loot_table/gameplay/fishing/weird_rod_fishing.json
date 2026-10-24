@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "name": "weird_rod_fishing",
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt"
+        }
+      ]
+    }
+  ]
+}

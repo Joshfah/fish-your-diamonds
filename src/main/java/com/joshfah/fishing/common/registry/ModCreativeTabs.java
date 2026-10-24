@@ -18,7 +18,6 @@ public class ModCreativeTabs {
             .title(Component.translatable("itemGroup." + FishYourDiamonds.MODID + ".fish_your_diamonds"))
             .icon(() -> new ItemStack(Blocks.ACACIA_LEAVES))
             .displayItems((param, output) -> {
-                output.accept(Blocks.ACACIA_LEAVES);
                 output.accept(ModItems.WEIRD_ROD_ITEM);
             })
             .build()

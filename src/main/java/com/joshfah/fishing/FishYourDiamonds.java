@@ -1,8 +1,11 @@
 package com.joshfah.fishing;
 
 import com.joshfah.fishing.common.registry.ModCreativeTabs;
+import com.joshfah.fishing.common.registry.ModDataComponents;
 import com.joshfah.fishing.common.registry.ModItems;
 import com.joshfah.fishing.item.custom.WeirdRodItem;
+import com.joshfah.fishing.loot.ModLootTables;
+import net.minecraft.world.level.storage.loot.BuiltInLootTables;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -78,6 +81,7 @@ public class FishYourDiamonds {
         ITEMS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
         ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
+        ModDataComponents.COMPONENTS.register(modEventBus);
 
         // Register the Deferred Register to the mod event bus so tabs get registered
         CREATIVE_MODE_TABS.register(modEventBus);
