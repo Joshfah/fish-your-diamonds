@@ -83,6 +83,8 @@ public class FishYourDiamonds {
         ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
         ModDataComponents.COMPONENTS.register(modEventBus);
 
+
+
         // Register the Deferred Register to the mod event bus so tabs get registered
         CREATIVE_MODE_TABS.register(modEventBus);
 

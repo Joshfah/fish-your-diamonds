@@ -1,5 +1,7 @@
 package com.joshfah.fishing;
 
+import com.joshfah.fishing.datacomponent.RodTooltipComponent;
+import com.joshfah.fishing.item.custom.WeirdRodItem;
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -7,6 +9,7 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.RegisterClientTooltipComponentFactoriesEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
@@ -20,6 +23,14 @@ public class FishYourDiamondsClient {
         // The config screen is accessed by going to the Mods screen > clicking on your mod > clicking on config.
         // Do not forget to add translations for your config options to the en_us.json file.
         container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
+    }
+
+    @SubscribeEvent
+    public static void registerTooltipFactories(RegisterClientTooltipComponentFactoriesEvent event) {
+        event.register(
+                WeirdRodItem.RodTooltipComponent.class,
+                d -> new RodTooltipComponent()
+        );
     }
 
     @SubscribeEvent

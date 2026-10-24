@@ -3,6 +3,7 @@
   "block.fishyourdiamonds.example_block": "Example Block",
   "item.fishyourdiamonds.example_item": "Example Item",
   "item.fishyourdiamonds.weird_rod": "Weird Rod",
+  "itemGroup.fishyourdiamonds.fishyourdiamonds": "Fish Your Diamonds",
 
   "fishyourdiamonds.configuration.title": "Fish Your Diamonds Configs",
   "fishyourdiamonds.configuration.section.fishyourdiamonds.common.toml": "Fish Your Diamonds Configs",
